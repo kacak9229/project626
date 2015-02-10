@@ -1,0 +1,20 @@
+{
+  "name": "project626",
+  "version": "1.0.0",
+  "description": "626 project testing for udemy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "batman",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.11.0",
+    "cors": "^2.5.3",
+    "express": "^4.11.2",
+    "jsonwebtoken": "^3.2.2",
+    "mongoose": "^3.8.23",
+    "morgan": "^1.5.1"
+  }
+}

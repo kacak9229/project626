@@ -1,0 +1,45 @@
+<div class="container">
+	<h1>Awesome {{ data }}</h1>
+
+
+
+	<div class="row">
+		<div class="col-md-4">
+				<div class="panel panel-primary">
+
+ 					<div class="panel-heading"><h4>Your profile</h4></div>
+ 					
+
+ 				</div>
+		</div>
+
+		<div class="col-md-6">
+				<div class="panel panel-primary">
+
+ 					<div class="panel-heading"><h4>Write your Story</h4></div>
+ 					<div class="panel-body">
+ 						<form ng-submit="story.createStory()">	
+ 							<input class="form-control input-lg" type="text" name="story" ng-model="story.storyData.content" placeholder="Story" required>
+ 							<br />
+ 							<div class="row">
+ 								<div class="col-xs-9"></div>
+ 								<button class="btn btn-primary">
+ 									Create Story
+ 								</button>
+ 							</div>
+ 						</form>
+ 					</div>
+
+ 				</div>
+		</div>
+
+
+		<div class="col-md-2">
+				<div class="panel panel-primary">
+ 					<div class="panel-heading"><h4>Trends</h4></div>
+ 				</div>
+		</div>
+
+	</div>
+
+</div>
